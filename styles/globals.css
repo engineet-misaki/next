@@ -21,7 +21,7 @@ a {
 
 @layer base {
   pre {
-    @apply bg-gray-900 text-white p-3;
+    @apply bg-gray-900 text-white p-3 overflow-x-auto;
   }
   a {
     @apply text-blue-500 underline;
