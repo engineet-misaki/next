@@ -7,7 +7,7 @@ const BlogId = ({ blog }) => {
         <h2 className='container p-6 mx-auto text-2xl font-bold'>記事詳細</h2>
       </div>
       <div className='container mx-auto'>
-        <div className='p-6 md:py-8 md:px-16 m-3 md:m-16 my-8 bg-white rounded-lg shadow-sm'>
+        <div className='p-6 md:py-8 md:px-16 m-3 md:m-16 my-8 bg-white rounded-xl shadow-sm'>
           <h1 className='text-2xl font-bold'>{blog.title}</h1>
           {/* <div>
         {blog.tags.map((tag) => (

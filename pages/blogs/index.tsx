@@ -8,13 +8,13 @@ const Home = ({ blogs }) => {
         <h2 className='container p-6 mx-auto text-2xl font-bold'>記事一覧</h2>
       </div>
       <div className='container mx-auto'>
-        <div className='p-6 md:py-8 md:px-16 m-3 md:m-16 my-8 bg-white rounded-lg shadow-sm'>
+        <div className='overflow-hidden md:py-8 px-6 md:px-16 m-3 md:m-16 my-8 bg-white rounded-xl shadow-sm'>
           {blogs.map((blog) => (
             <article key={blog.id} className='my-6'>
               <Link href='/blogs/[id]' as={`blogs/${blog.id}`}>
                 <a className='flex items-center'>
                   <Image
-                    src={`/img/thumbnail/${blog.thumbnail}.png`}
+                    src={`/img/thumbnail/${blog.thumbnail}`}
                     alt='thumbnail'
                     width={64}
                     height={64}
