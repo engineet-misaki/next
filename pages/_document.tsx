@@ -9,8 +9,12 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang='ja'>
         <Head>
+          <meta charSet='UTF-8'></meta>
+          <meta name='viewport' content='width=device-width,initial-scale=1' />
+          <meta name='description' content='フロントエンジニアの雑記ブログ。Nuxtが好き' />
+          <title>Indomitable Willpower</title>
           <link
             href='https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'
             rel='stylesheet'

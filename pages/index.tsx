@@ -18,7 +18,7 @@ const Home = ({ blogs }) => {
               <Link href='/blogs/[id]' as={`blogs/${blog.id}`}>
                 <a className='flex items-center'>
                   <Image
-                    src={`/img/thumbnail/${blog.thumbnail}`}
+                    src={`/img/thumbnail/${blog.thumbnail.picture}`}
                     alt='thumbnail'
                     width={64}
                     height={64}
@@ -44,11 +44,14 @@ const Home = ({ blogs }) => {
             <Link href='/'>
               <a className='block mt-3 text-gray-500 underline'>記事一覧</a>
             </Link>
-            <Link href='/'>
-              <a className='block mt-3 text-gray-500 underline'>
-                Twitter : Misaki@未経験新卒エンジニア
-              </a>
-            </Link>
+            <a
+              href='https://twitter.com/FeWA41suVDl435I'
+              target='_blank'
+              className='block mt-3 text-gray-500 underline'
+              rel='noreferrer'
+            >
+              Twitter : Misaki@未経験新卒エンジニア
+            </a>
             <p className='mt-3 text-gray-500'>連絡先 : damymisaki@gmail.com</p>
           </div>
         </div>

@@ -34,11 +34,14 @@ const BlogId = ({ blog }) => {
             <Link href='/'>
               <a className='block mt-3 text-gray-500 underline'>記事一覧</a>
             </Link>
-            <Link href='/'>
-              <a className='block mt-3 text-gray-500 underline'>
-                Twitter : Misaki@未経験新卒エンジニア
-              </a>
-            </Link>
+            <a
+              href='https://twitter.com/FeWA41suVDl435I'
+              target='_blank'
+              className='block mt-3 text-gray-500 underline'
+              rel='noreferrer'
+            >
+              Twitter : Misaki@未経験新卒エンジニア
+            </a>
             <p className='mt-3 text-gray-500'>連絡先 : damymisaki@gmail.com</p>
           </div>
         </div>
